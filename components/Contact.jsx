@@ -43,7 +43,7 @@ const Contact = () => {
                                 <p>Full-Stack Web Developer</p>
                                 <p className='py-4'>
                                     I am available for freelance or full-time positions. Contact
-                                    me and let's talk.
+                                    me and let&apos;s talk.
                                 </p>
                             </div>
                             <div>
@@ -52,12 +52,13 @@ const Contact = () => {
                                     <a
                                         href='https://www.linkedin.com/in/apfiwaho-ramukosi-45738470/'
                                         target='_blank'
+                                        rel="noreferrer"
                                     >
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <FaLinkedinIn />
                                         </div>
                                     </a>
-                                    <a href='https://github.com/apfiwaho' target='_blank'>
+                                    <a href='https://github.com/apfiwaho' target='_blank' rel="noreferrer">
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <FaGithub />
                                         </div>

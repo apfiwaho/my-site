@@ -22,10 +22,11 @@ const resume = () => {
                         <a
                             href='https://www.linkedin.com/in/apfiwaho-ramukosi-45738470/'
                             target='_blank'
+                            rel="noreferrer"
                         >
                             <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
                         </a>
-                        <a href='https://github.com/apfiwaho' target='_blank'>
+                        <a href='https://github.com/apfiwaho' target='_blank' rel="noreferrer">
                             <FaGithub size={20} style={{ marginRight: '1rem' }} />
                         </a>
                     </div>
