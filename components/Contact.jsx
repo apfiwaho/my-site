@@ -11,13 +11,10 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    const [btnMsg, setBtnMsg] = useState('Send Message');
 
     const handleSubmit = () => {
-        setName('');
-        setPhone('');
-        setEmail('');
-        setSubject('');
-        setMessage('');
+        setBtnMsg('Sending...')
     };
 
     return (
@@ -141,7 +138,7 @@ const Contact = () => {
                                     ></textarea>
                                 </div>
                                 <button className='w-full p-4 text-gray-100 mt-4'>
-                                    Send Message
+                                    {btnMsg}
                                 </button>
                             </form>
                         </div>
