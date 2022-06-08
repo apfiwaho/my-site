@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -21,19 +22,30 @@ const Main = () => {
                         back-end technologies.
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedinIn />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaGithub />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <AiOutlineMail />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <BsFillPersonLinesFill />
-                        </div>
-
+                        <a
+                            href='https://www.linkedin.com/in/apfiwaho-ramukosi-45738470/'
+                            target='_blank'
+                            rel="noreferrer"
+                        >
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <FaLinkedinIn />
+                            </div>
+                        </a>
+                        <a href='https://github.com/apfiwaho' target='_blank' rel="noreferrer">
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <FaGithub />
+                            </div>
+                        </a>
+                        <Link href='mailto:apfiwaho@gmail.com'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <AiOutlineMail />
+                            </div>
+                        </Link>
+                        <Link href='/resume'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <BsFillPersonLinesFill />
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

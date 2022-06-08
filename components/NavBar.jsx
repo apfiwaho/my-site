@@ -37,7 +37,7 @@ const NavBar = () => {
             }>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
-                    <Image src="/../public/assets/navLogo.png" alt="/" width='70' height='70' />
+                    <Image src={require('../public/assets/navLogo.png')} alt="/" width='70' height='70' />
                 </Link>
                 <div >
                     <ul className='hidden md:flex'>
@@ -69,7 +69,7 @@ const NavBar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                                <Image src={'/../public/assets/navLogo.png'} width='87' height='35' alt='Logo' />
+                                <Image src={require('../public/assets/navLogo.png')} width='87' height='35' alt='Logo' />
                             </Link>
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
@@ -103,18 +103,30 @@ const NavBar = () => {
                                     Let&apos;s Connect
                                 </p>
                                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <FaLinkedinIn />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <FaGithub />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <AiOutlineMail />
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                        <BsFillPersonLinesFill />
-                                    </div>
+                                    <a
+                                        href='https://www.linkedin.com/in/apfiwaho-ramukosi-45738470/'
+                                        target='_blank'
+                                        rel="noreferrer"
+                                    >
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                            <FaLinkedinIn />
+                                        </div>
+                                    </a>
+                                    <a href='https://github.com/apfiwaho' target='_blank' rel="noreferrer">
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                            <FaGithub />
+                                        </div>
+                                    </a>
+                                    <Link href='mailto:apfiwaho@gmail.com'>
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                            <AiOutlineMail />
+                                        </div>
+                                    </Link>
+                                    <Link href='/resume'>
+                                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                                            <BsFillPersonLinesFill />
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
