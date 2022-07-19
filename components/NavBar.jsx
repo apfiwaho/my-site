@@ -37,7 +37,7 @@ const NavBar = () => {
             }>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
-                    <Image src={require('../public/assets/navLogo.png')} alt="/" width='70' height='70' />
+                    <Image src={require('../public/assets/navLogo.png')} alt="/" width='70' height='70' className='cursor-pointer' />
                 </Link>
                 <div >
                     <ul className='hidden md:flex'>
