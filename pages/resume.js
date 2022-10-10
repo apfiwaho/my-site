@@ -45,7 +45,7 @@ const resume = () => {
                     operations. Diverse analytical skills, team collaboration, and
                     relationship building. Consummate professional,
                     with solid interpersonal abilities and complex problem-solving skills.
-                    Effective and proven track record of critical thinking,  and optimizing efficiencies.
+                    Effective and proven track record of critical thinking, and optimizing efficiencies.
                 </p>
 
                 {/* Skills */}
@@ -75,7 +75,7 @@ const resume = () => {
                         Professional Experience
                     </h5>
                     <p className='italic'>
-                        <span className='font-bold'>Standardbank</span>
+                        <span className='font-bold'>Standard Bank</span>
                         <span className='px-2'>|</span>South Africa
                     </p>
                     <p className='py-1 italic'>Insurance Banker - Business Intelligence (Current)</p>
