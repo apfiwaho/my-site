@@ -78,7 +78,31 @@ const resume = () => {
                         <span className='font-bold'>Standard Bank</span>
                         <span className='px-2'>|</span>South Africa
                     </p>
-                    <p className='py-1 italic'>Insurance Banker - Business Intelligence (Current)</p>
+                    <p className='py-1 italic'>Analyst, Business Intelligence (Current)</p>
+                    <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+                        <li>
+                            Using automated tools to extract data from primary and secondary sources.
+                        </li>
+                        <li>
+                            Performing analysis to assess quality and meaning of data.
+                        </li>
+                        <li>
+                            Preparing reports for
+                            the management stating trends, patterns, and predictions using relevant data.
+                        </li>
+                        <li>
+                            Preparing final analysis reports for the stakeholders to understand the data-analysis
+                            steps, enabling them to take important decisions based on various facts and trends.
+                        </li>
+                    </ul>
+                </div>
+                {/* Experience */}
+                <div className='py-4'>
+                    <p className='italic'>
+                        <span className='font-bold'>Standard Bank</span>
+                        <span className='px-2'>|</span>South Africa
+                    </p>
+                    <p className='py-1 italic'>Insurance Banker - Business Intelligence (2022) </p>
                     <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
                         <li>
                             Using automated tools to extract data from primary and secondary sources.
